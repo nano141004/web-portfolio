@@ -62,16 +62,6 @@ const projectCategories = {
         github: "",
         demo: "https://drive.google.com/drive/folders/1NrFc1tuxqQg2ueCVVP9W_qYugsC1uFWu?usp=sharing"
       },
-      {
-        id: "pacilflix",
-        title: "SQL Heavy, Webdev Fullstack - Pacilflix",
-        description:
-          "Collaborated in a team of 4 to build a Netflix‑style website for a database course using Django with raw SQL. I implemented the “tayangan” module, writing SQL for CRUD operations, computing total views, and ranking movies overall and within the past week.",
-        image: "/images/projects/pacilflix.png",
-        tags: ["Django", "Python", "SQL", "Git", "Teamwork", "Problem Solving", "Critical Thinking"],
-        github: "https://github.com/basdat-a4/Pacilflix",
-        demo: "",
-      },
     ],
   },
   "software-development": {

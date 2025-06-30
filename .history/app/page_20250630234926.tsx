@@ -62,16 +62,6 @@ const projectCategories = {
         github: "",
         demo: "https://drive.google.com/drive/folders/1NrFc1tuxqQg2ueCVVP9W_qYugsC1uFWu?usp=sharing"
       },
-      {
-        id: "pacilflix",
-        title: "SQL Heavy, Webdev Fullstack - Pacilflix",
-        description:
-          "Collaborated in a team of 4 to build a Netflix‑style website for a database course using Django with raw SQL. I implemented the “tayangan” module, writing SQL for CRUD operations, computing total views, and ranking movies overall and within the past week.",
-        image: "/images/projects/pacilflix.png",
-        tags: ["Django", "Python", "SQL", "Git", "Teamwork", "Problem Solving", "Critical Thinking"],
-        github: "https://github.com/basdat-a4/Pacilflix",
-        demo: "",
-      },
     ],
   },
   "software-development": {
@@ -84,7 +74,7 @@ const projectCategories = {
         description:
           "A work collaboration chat app for industries like mining to improve communication flow. Built by 8 people using Scrum. Features include user, asset, and report mentions. Developed with Django REST (backend) and React TypeScript (frontend).",
         image: "/images/projects/ppl.png",
-        tags: ["React TS", "Django REST", "Python", "Scrum", "Git", "Teamwork", "Leadership", "Problem Solving", "Critical Thinking"],
+        tags: ["React TS", "Django REST", "Python", "Scrum", "Git"],
         github: "",
         demo: "",
       },
@@ -92,10 +82,10 @@ const projectCategories = {
         id: "pacilflix",
         title: "SQL Heavy, Webdev Fullstack - Pacilflix",
         description:
-          "Collaborated in a team of 4 to build a Netflix‑style website for a database course using Django with raw SQL. I implemented the “tayangan” module, writing SQL for CRUD operations, computing total views, and ranking movies overall and within the past week.",
-        image: "/images/projects/pacilflix.png",
-        tags: ["Django", "Python", "SQL", "Git", "Teamwork", "Problem Solving", "Critical Thinking"],
-        github: "https://github.com/basdat-a4/Pacilflix",
+          "A work collaboration chat app for industries like mining to improve communication flow. Built by 8 people using Scrum. Features include user, asset, and report mentions. Developed with Django REST (backend) and React TypeScript (frontend).",
+        image: "/images/projects/ppl.png",
+        tags: ["Django", "Python", "Python", "Scrum", "Git"],
+        github: "",
         demo: "",
       },
     ],
