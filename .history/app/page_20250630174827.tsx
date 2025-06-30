@@ -188,6 +188,9 @@ export default function Portfolio() {
               <Link href="#experience" className="hover:text-primary transition-colors">
                 Experience
               </Link>
+              <Link href="#contact" className="hover:text-primary transition-colors">
+                Contact
+              </Link>
             </nav>
           </div>
         </div>
