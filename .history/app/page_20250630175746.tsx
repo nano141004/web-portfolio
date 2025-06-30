@@ -209,7 +209,7 @@ export default function Portfolio() {
           </div>
           {/* <h2 className="text-5xl font-bold mb-6">Building</h2> */}
           <p className="text-xl text-muted-foreground mb-8 max-w-5xl mx-auto">
-            A Computer Science undergraduate passionate about Data Science, with hands-on experience in projects involving machine learning, data analysis, and software development. Strong in problem solving, leveraging coding skills and analytical thinking to deliver impactful, data-driven solutions.
+            , and software development. Strong in problem solving, armed with coding skills and analytical thinking to deliver effective data-driven solutions.
           </p>
 
           {/* Social Links */}
