@@ -176,7 +176,7 @@ const education = [
     location: "Depok, Indonesia",
     period: "2022 - Now",
     description:
-      "GPA: 3.26/4.0 - Relevant coursework: Database, Statistics and Probability, Data Mining, Intro to AI and Data Science, Data Structures and Algorithms, Linear Algebra, Calculus",
+      "GPA: 3.26/4.0",
     logo: "/images/logos/univ.png",
     color: "bg-red-500",
   },

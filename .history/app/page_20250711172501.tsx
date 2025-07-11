@@ -66,11 +66,14 @@ const projectCategories = {
         id: "powerBI-1",
         title: "E-commerce Customer Shopping Behavior Analysis Dashboard",
         description:
-          "Developed a Power BI dashboard to analyze e-commerce customer behavior using a public dataset. Transformed raw data into actionable insights by creating KPIs and performing aggregations. Visualized trends in sales, customer segments, and promotional effectiveness to support business decision-making.",
+          "Developed a Power BI dashboard to analyze e-commerce customer behavior using a public dataset. 
+Transformed raw data into actionable insights by creating KPIs and performing aggregations. 
+Visualized trends in sales, customer segments, and promotional effectiveness to support business decision-making.
+",
         image: "/images/projects/powerBI-1.png",
-        tags: ["Power BI", "Problem Solving", "Critical Thinking"],
-        github: "",
-        demo: "https://drive.google.com/drive/folders/19lahQuD5WAJBwR2i1P6OkyBxUqsMOnIM?usp=drive_link",
+        tags: ["Django", "Python", "SQL", "Git", "Teamwork", "Problem Solving", "Critical Thinking"],
+        github: "https://github.com/basdat-a4/Pacilflix",
+        demo: "",
       },
       {
         id: "pacilflix",
@@ -141,7 +144,7 @@ const projectCategories = {
 const skills = [
   { category: "Programming", items: ["Python", "SQL", "Java", "JavaScript", "TypeScript", "Godot"] },
   { category: "Libraries", items: ["pandas", "numpy", "scikit-learn", "matplotlib", "seaborn", "PyTorch"] },
-  { category: "Tools, Tech Stack", items: ["Git", "Jupyter Notebook", "Google Colab", "Power BI", "GitHub", "Django", "Spring Boot", "ReactJS"] },
+  { category: "Tools, Tech Stack", items: ["Git", "Jupyter Notebook", "Google Colab", "GitHub", "Django", "Spring Boot", "ReactJS"] },
   { category: "Soft Skills", items: ["Problem solving", "Critical thinking", "Adaptability", "Teamwork", "Communication", "Leadership"] },
   { category: "Languages", items: ["English – Fluent", "Bahasa Indonesia – Native"] },
 ]
@@ -176,7 +179,7 @@ const education = [
     location: "Depok, Indonesia",
     period: "2022 - Now",
     description:
-      "GPA: 3.26/4.0 - Relevant coursework: Database, Statistics and Probability, Data Mining, Intro to AI and Data Science, Data Structures and Algorithms, Linear Algebra, Calculus",
+      "GPA: 3.26/4.0",
     logo: "/images/logos/univ.png",
     color: "bg-red-500",
   },
