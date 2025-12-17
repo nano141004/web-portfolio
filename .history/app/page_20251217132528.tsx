@@ -14,9 +14,9 @@ const projectCategories = {
     projects: [
       {
         id: "partial-spoof-detection",
-        title: "Partial Spoof Audio Detection",
+        title: "Partial Spoof Audio Detection (TDAM)",
         description:
-          "Developed a fully supervised module based on TDAM paper, to detect synthetic speech segments using Wav2Vec2 features. Achieved 0.79% EER for utterance detection. Research highlighted trade-offs in temporal resolution, with frame-level localization yielding 17.34% EER.",
+          "Developed a fully supervised Temporal Difference Attention Module (TDAM) to detect synthetic speech segments using Wav2Vec2 features. Achieved 0.79% EER for utterance detection. Research highlighted trade-offs in temporal resolution, with frame-level localization yielding 17.34% EER.",
         image: "/images/projects/audio-spoof.png", 
         tags: ["Python", "PyTorch", "Wav2Vec2", "Speech Processing", "Research"],
         github: "", 
@@ -154,22 +154,12 @@ const projectCategories = {
         github: "",
         demo: "https://absolute-cinema.itch.io/callisto"
       },
-      {
-        id: "custom-chesskell",
-        title: "CustomChessKell – Configurable Chess Engine in Haskell",
-        description:
-          "Developed a data-driven chess engine in pure Haskell that acts as an interpreter for custom piece rules defined in YAML. Modeled movement logic using an internal Abstract Syntax Tree (AST) and utilized Monads for composable validation pipelines. Implemented immutable board simulations for thread-safe move generation and leveraged Haskell's lazy evaluation for efficient checkmate/stalemate detection.",
-        image: "/images/projects/chesskell.png", 
-        tags: ["Haskell", "Functional Programming", "Higher-Order Function", "Monads", "Lazy Evaluation"],
-        github: "https://github.com/nano141004/mini-project-funcpro", 
-        demo: "",
-      },
     ],
   },
 }
 
 const skills = [
-  { category: "Programming", items: ["Python", "SQL", "Java", "JavaScript", "TypeScript", "Godot", "Haskell"] },
+  { category: "Programming", items: ["Python", "SQL", "Java", "JavaScript", "TypeScript", "Godot"] },
   { category: "Libraries", items: ["pandas", "numpy", "scikit-learn", "matplotlib", "seaborn", "PyTorch"] },
   { category: "Tools, Tech Stack", items: ["Git", "Jupyter Notebook", "Google Colab", "Power BI", "GitHub", "Django", "Spring Boot", "ReactJS"] },
   { category: "Soft Skills", items: ["Problem solving", "Critical thinking", "Adaptability", "Teamwork", "Communication", "Leadership"] },

@@ -13,24 +13,7 @@ const projectCategories = {
     description: "",
     projects: [
       {
-        id: "partial-spoof-detection",
-        title: "Partial Spoof Audio Detection",
-        description:
-          "Developed a fully supervised module based on TDAM paper, to detect synthetic speech segments using Wav2Vec2 features. Achieved 0.79% EER for utterance detection. Research highlighted trade-offs in temporal resolution, with frame-level localization yielding 17.34% EER.",
-        image: "/images/projects/audio-spoof.png", 
-        tags: ["Python", "PyTorch", "Wav2Vec2", "Speech Processing", "Research"],
-        github: "", 
-        demo: "" 
-      },
-      {
-        id: "gan-inpainting",
-        title: "Image Inpainting with GANs",
-        description:
-          "Implemented a GAN using U-Net and PatchGAN to reconstruct masked regions in images. Utilized a weighted L1 'Hole Loss' to focus learning on damaged areas. The model achieved 20.79 dB PSNR, though analysis showed struggles with high-frequency checkerboard mask patterns.",
-        image: "/images/projects/gan-inpainting.png", 
-        tags: ["Python", "PyTorch", "GAN", "Computer Vision", "Deep Learning"],
-        github: "", 
-        demo: "" 
+
       },
       {
         id: "clustering-algorithms",
@@ -154,22 +137,12 @@ const projectCategories = {
         github: "",
         demo: "https://absolute-cinema.itch.io/callisto"
       },
-      {
-        id: "custom-chesskell",
-        title: "CustomChessKell – Configurable Chess Engine in Haskell",
-        description:
-          "Developed a data-driven chess engine in pure Haskell that acts as an interpreter for custom piece rules defined in YAML. Modeled movement logic using an internal Abstract Syntax Tree (AST) and utilized Monads for composable validation pipelines. Implemented immutable board simulations for thread-safe move generation and leveraged Haskell's lazy evaluation for efficient checkmate/stalemate detection.",
-        image: "/images/projects/chesskell.png", 
-        tags: ["Haskell", "Functional Programming", "Higher-Order Function", "Monads", "Lazy Evaluation"],
-        github: "https://github.com/nano141004/mini-project-funcpro", 
-        demo: "",
-      },
     ],
   },
 }
 
 const skills = [
-  { category: "Programming", items: ["Python", "SQL", "Java", "JavaScript", "TypeScript", "Godot", "Haskell"] },
+  { category: "Programming", items: ["Python", "SQL", "Java", "JavaScript", "TypeScript", "Godot"] },
   { category: "Libraries", items: ["pandas", "numpy", "scikit-learn", "matplotlib", "seaborn", "PyTorch"] },
   { category: "Tools, Tech Stack", items: ["Git", "Jupyter Notebook", "Google Colab", "Power BI", "GitHub", "Django", "Spring Boot", "ReactJS"] },
   { category: "Soft Skills", items: ["Problem solving", "Critical thinking", "Adaptability", "Teamwork", "Communication", "Leadership"] },
@@ -206,7 +179,7 @@ const education = [
     location: "Depok, Indonesia",
     period: "2022 - Now",
     description:
-      "Relevant coursework: Database, Statistics and Probability, Data Mining, Intro to AI and Data Science, Data Structures and Algorithms, Linear Algebra, Calculus",
+      "GPA: 3.26/4.0 - Relevant coursework: Database, Statistics and Probability, Data Mining, Intro to AI and Data Science, Data Structures and Algorithms, Linear Algebra, Calculus",
     logo: "/images/logos/univ.png",
     color: "bg-red-500",
   },
@@ -216,7 +189,7 @@ const education = [
     location: "Tomohon, Indonesia",
     period: "2019 - 2022",
     description:
-      "Member of Informatics Competition Club - Finalist of Kompetisi Sains Nasional (KSN) Informatika 2021, ranked among the top 100 at the national level",
+      "GPA: 93.29/100 - Member of Informatics Competition Club - Finalist of Kompetisi Sains Nasional (KSN) Informatika 2021, ranked among the top 100 at the national level",
     logo: "/images/logos/school-logo.png",
     color: "bg-yellow-500",
   },
@@ -269,7 +242,7 @@ export default function Portfolio() {
           </div>
           {/* <h2 className="text-5xl font-bold mb-6">Building</h2> */}
           <p className="text-xl text-muted-foreground mb-8 max-w-5xl mx-auto">
-            A Computer Science undergraduate passionate about AI research, with a particular interest in Natural Language Processing. Possesses hands-on experience in projects involving deep learning, computer vision, and speech processing. Strong in problem solving, leveraging coding skills and analytical thinking to develop rigorous, research-driven solutions.
+            A Computer Science undergraduate passionate about Data Science and Analysis, with hands-on experience in projects involving machine learning, data analysis, and software development. Strong in problem solving, leveraging coding skills and analytical thinking to deliver impactful, data-driven solutions.
           </p>
 
           {/* Social Links */}

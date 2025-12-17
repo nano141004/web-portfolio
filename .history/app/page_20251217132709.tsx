@@ -14,9 +14,9 @@ const projectCategories = {
     projects: [
       {
         id: "partial-spoof-detection",
-        title: "Partial Spoof Audio Detection",
+        title: "Partial Spoof Audio Detection (TDAM)",
         description:
-          "Developed a fully supervised module based on TDAM paper, to detect synthetic speech segments using Wav2Vec2 features. Achieved 0.79% EER for utterance detection. Research highlighted trade-offs in temporal resolution, with frame-level localization yielding 17.34% EER.",
+          "Developed a fully supervised Temporal Difference Attention Module (TDAM) to detect synthetic speech segments using Wav2Vec2 features. Achieved 0.79% EER for utterance detection. Research highlighted trade-offs in temporal resolution, with frame-level localization yielding 17.34% EER.",
         image: "/images/projects/audio-spoof.png", 
         tags: ["Python", "PyTorch", "Wav2Vec2", "Speech Processing", "Research"],
         github: "", 
@@ -169,7 +169,7 @@ const projectCategories = {
 }
 
 const skills = [
-  { category: "Programming", items: ["Python", "SQL", "Java", "JavaScript", "TypeScript", "Godot", "Haskell"] },
+  { category: "Programming", items: ["Python", "SQL", "Java", "JavaScript", "TypeScript", "Godot"] },
   { category: "Libraries", items: ["pandas", "numpy", "scikit-learn", "matplotlib", "seaborn", "PyTorch"] },
   { category: "Tools, Tech Stack", items: ["Git", "Jupyter Notebook", "Google Colab", "Power BI", "GitHub", "Django", "Spring Boot", "ReactJS"] },
   { category: "Soft Skills", items: ["Problem solving", "Critical thinking", "Adaptability", "Teamwork", "Communication", "Leadership"] },
