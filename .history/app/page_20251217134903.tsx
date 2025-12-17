@@ -233,7 +233,7 @@ export default function Portfolio() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold">Mariano Gerardus Senduk</h1>
-              {/* <p className="text-muted-foreground">AI Research Enthusiast</p> */}
+              <p className="text-muted-foreground">AI Research Enthusiast</p>
             </div>
             <nav className="flex gap-6">
               <Link href="#about" className="hover:text-primary transition-colors">
