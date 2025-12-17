@@ -135,16 +135,6 @@ const projectCategories = {
     description: "",
     projects: [
       {
-        id: "custom-chesskell",
-        title: "CustomChessKell – Configurable Chess Engine in Haskell",
-        description:
-          "Developed a data-driven chess engine in pure Haskell that acts as an interpreter for custom piece rules defined in YAML. Modeled movement logic using an internal Abstract Syntax Tree (AST) and utilized Monads for composable validation pipelines. Implemented immutable board simulations for thread-safe move generation and leveraged Haskell's lazy evaluation for efficient checkmate/stalemate detection.",
-        image: "/images/projects/chesskell.png", 
-        tags: ["Haskell", "Functional Programming", "Higher-Order Function", "Monads", "Lazy Evaluation"],
-        github: "https://github.com/nano141004/mini-project-funcpro", 
-        demo: "",
-      },
-      {
         id: "plaguewalker",
         title: "Gamedev - Plaguewalker",
         description:
@@ -164,6 +154,7 @@ const projectCategories = {
         github: "",
         demo: "https://absolute-cinema.itch.io/callisto"
       },
+      
     ],
   },
 }
